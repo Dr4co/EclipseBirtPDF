@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<report xmlns="http://www.eclipse.org/birt/2005/design" version="3.2.23" id="1">
+    <property name="createdBy">Eclipse BIRT Designer Version 4.6.0.v201606072122</property>
+    <property name="units">in</property>
+    <property name="iconFile">/templates/blank_report.gif</property>
+    <property name="bidiLayoutOrientation">ltr</property>
+    <property name="imageDPI">72</property>
+    <page-setup>
+        <simple-master-page name="Simple MasterPage" id="2">
+            <page-footer>
+                <text id="3">
+                    <property name="contentType">html</property>
+                    <text-property name="content"><![CDATA[<value-of>new Date()</value-of>]]></text-property>
+                </text>
+            </page-footer>
+        </simple-master-page>
+    </page-setup>
+    <body>
+    <grid id="4">
+        <property name="fontFamily">sans-serif</property>
+        <column id="39">
+            <property name="width">33%</property>
+        </column>
+        <column id="40">
+            <property name="width">10%</property>
+        </column>
+        <column id="41">
+            <property name="width">10%</property>
+        </column>
+        <column id="42"/>
+        <column id="43"/>
+        <row id="190">
+            <property name="fontWeight">normal</property>
+            <cell id="191">
+                <property name="colSpan">5</property>
+                <property name="rowSpan">1</property>
+            </cell>
+        </row>
+        <row id="184">
+            <cell id="185"/>
+            <cell id="186">
+                <property name="colSpan">2</property>
+                <property name="rowSpan">1</property>
+            </cell>
+            <cell id="188"/>
+            <cell id="189"/>
+        </row>
+        <row id="178">
+            <cell id="179"/>
+            <cell id="180">
+                <property name="colSpan">2</property>
+                <property name="rowSpan">1</property>
+            </cell>
+            <cell id="182"/>
+            <cell id="183"/>
+        </row>
+        <row id="11">
+            <cell id="12">
+                <label id="13">
+                    <property name="textAlign">left</property>
+                    <text-property name="text">Benämning</text-property>
+                </label>
+            </cell>
+            <cell id="14">
+                <label id="15">
+                    <text-property name="text">Lev ant</text-property>
+                </label>
+            </cell>
+            <cell id="16">
+                <label id="17">
+                    <text-property name="text">Enhet</text-property>
+                </label>
+            </cell>
+            <cell id="18">
+                <label id="19">
+                    <text-property name="text">A-pris</text-property>
+                </label>
+            </cell>
+            <cell id="20">
+                <label id="21">
+                    <property name="textAlign">right</property>
+                    <text-property name="text">Summa</text-property>
+                </label>
+            </cell>
+        </row>
+        <row id="250">
+            <cell id="251">
+                <label id="252">
+                    <property name="textAlign">left</property>
+                    <text-property name="text">description</text-property>
+                </label>
+            </cell>
+            <cell id="253">
+                <label id="254">
+                    <text-property name="text">quantity</text-property>
+                </label>
+            </cell>
+            <cell id="255">
+                <label id="256">
+                    <property name="textAlign">center</property>
+                    <text-property name="text">units</text-property>
+                </label>
+            </cell>
+            <cell id="257">
+                <label id="258">
+                    <property name="textAlign">center</property>
+                    <text-property name="text">unitPrice</text-property>
+                </label>
+            </cell>
+            <cell id="259">
+                <label id="260">
+                    <property name="textAlign">right</property>
+                    <text-property name="text">cost</text-property>
+                </label>
+            </cell>
+        </row>
+        <row id="22">
+            <cell id="23"/>
+            <cell id="25">
+                <property name="textAlign">right</property>
+            </cell>
+            <cell id="27">
+                <property name="textAlign">right</property>
+            </cell>
+            <cell id="29">
+                <property name="textAlign">right</property>
+            </cell>
+            <cell id="31">
+                <property name="textAlign">right</property>
+            </cell>
+        </row>
+    </grid>
+    </body>
+</report>
